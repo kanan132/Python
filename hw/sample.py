@@ -1,14 +1,22 @@
+a=[]
 for i in range(1,101):
     
     if i%3==0:
         if i%5==0:
-            print(f"{i}-FizzBuzz")
+            a.append("FizzBuzz")
         else:
-            print(f"{i}-fizz")
+            a.append("fizz")
     elif i%3==0:
-        print(f"{i}-fizz")
+        a.append("fizz")
     elif i%5==0:
-        print(f"{i}-buzz")
+        a.append("buzz")
     
     else: 
-        print(f"{i}-nothing")
+        a.append("nothing")
+print(a)
+b=a.count("fizz")
+c=a.count("buzz")
+d=a.count("FizzBuzz")
+print(f"{b}-fizz")
+print(f"{c}-buzz")
+print(f"{d}-FizzBuzz")
