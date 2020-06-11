@@ -66,6 +66,7 @@ while True:
             print("Tie!")
             print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
     elif choice=="exit":
+        print("exiting game")
         break
     else:
         print("Please informed that game ends and try again!")
