@@ -14,57 +14,57 @@ while True:
             tie+=1
             print(f"Computer chose:{comp_choice}")
             print("Tie!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
         elif comp_choice=="S":
             played+=1
             human+=1
             print(f"Computer chose:{comp_choice}")
             print("Human wins!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
         elif comp_choice=="P":
             played+=1
             comp+=1
             print(f"Computer chose:{comp_choice}")
             print("Computer wins!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
     elif choice=="S":
         if comp_choice=="R":
             played+=1
             comp+=1
             print(f"Computer chose:{comp_choice}")
             print("Computer wins!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
         elif comp_choice=="S":
             played+=1
             tie+=1
             print(f"Computer chose:{comp_choice}")
             print("Tie!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
         elif comp_choice=="P":
             played+=1
             human+=1
             print(f"Computer chose:{comp_choice}")
             print("Human wins!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
     elif choice=="P":
         if comp_choice=="R":
             played+=1
             human+=1
             print(f"Computer chose:{comp_choice}")
             print("Human wins!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
         elif comp_choice=="S":
             played+=1
             comp+=1
             print(f"Computer chose:{comp_choice}")
             print("Computer wins!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
         elif comp_choice=="P":
             played+=1
             tie+=1
             print(f"Computer chose:{comp_choice}")
             print("Tie!")
-            print(f"Played game:{played}\tHuman:{human}\tComputer:{comp}\tTie:{tie}")
+            print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
     elif choice=="exit":
         print("exiting game")
         break
