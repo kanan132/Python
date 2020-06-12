@@ -8,7 +8,7 @@ tie=0
 while True:
     choice=input("enter your choice(Rock=>R,Scissors=>S,Paper=>P):\t")
     comp_choice=random.choice(l)
-    if choice=="R":
+    if choice.upper()=="R":
         if comp_choice=="R":
             played+=1
             tie+=1
@@ -27,7 +27,7 @@ while True:
             print(f"Computer chose:{comp_choice}")
             print("Computer wins!")
             print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
-    elif choice=="S":
+    elif choice.upper()=="S":
         if comp_choice=="R":
             played+=1
             comp+=1
@@ -46,7 +46,7 @@ while True:
             print(f"Computer chose:{comp_choice}")
             print("Human wins!")
             print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
-    elif choice=="P":
+    elif choice.upper()=="P":
         if comp_choice=="R":
             played+=1
             human+=1
@@ -65,7 +65,7 @@ while True:
             print(f"Computer chose:{comp_choice}")
             print("Tie!")
             print(f"Played game:{played}\tHuman:{human}\t Computer:{comp}\tTie:{tie}")
-    elif choice=="exit":
+    elif choice.upper()=="EXIT":
         print("exiting game")
         break
     else:
